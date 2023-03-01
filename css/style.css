@@ -1,0 +1,10 @@
+body{
+    
+    background-color: #fafbfc;
+}
+.back{
+    min-height: 400px;
+    background-image:url("/photos/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
