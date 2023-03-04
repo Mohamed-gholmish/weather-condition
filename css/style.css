@@ -1,10 +1,20 @@
 body{
     
-    background-color: #fafbfc;
+   
 }
-.back{
+body{
+ background-color: #fafbfc;
     min-height: 400px;
-    background-image:url("/photos/banner.png");
+    background-image:url("/photos/pexels-pixabay-76969.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+.card1{min-height: 400px;}
+
+.card1 .degree{
+    font-size: 120px;
+}
+
+/* .cards{
+    transform: translateY(-50%);
+} */
