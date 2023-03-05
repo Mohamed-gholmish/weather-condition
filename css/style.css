@@ -1,20 +1,38 @@
-body{
-    
-   
+body {
+  background-color: #fafbfc;
+  min-height: 100vh;
+  background-image: url("/photos/pexels-pixabay-76969.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
 }
-body{
- background-color: #fafbfc;
-    min-height: 400px;
-    background-image:url("/photos/pexels-pixabay-76969.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.card1 {
+  margin-bottom: 0.3rem;
+  backdrop-filter: blur(8px);
+  background: rgba(rgb(255, 253, 253), 0.1);
 }
-.card1{min-height: 400px;}
-
-.card1 .degree{
-    font-size: 120px;
+.card1 {
+  border-radius: 20px;
+  border: 1px solid rgb(114, 164, 172);
 }
-
-/* .cards{
-    transform: translateY(-50%);
-} */
+.card1 .degree {
+  font-size: 80px;
+}
+.site-header {
+  background: rgba(157, 187, 247, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+#search::placeholder {
+  color: rgb(250, 246, 246);
+}
+#search {
+  background: #293037;
+}
+.foteer {
+  font-size: calc(1rem + 0.5vw);
+  color: whitesmoke;
+}
+.card-header {
+  color: whitesmoke;
+}
