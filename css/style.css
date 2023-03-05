@@ -1,7 +1,7 @@
 body {
   background-color: #fafbfc;
   min-height: 100vh;
-  background-image: url("/photos/pexels-pixabay-76969.jpg");
+  background-image: url("./images/pexels-pixabay-76969.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: fixed;
